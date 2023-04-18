@@ -107,7 +107,6 @@ ENTITY_CATEGORIES = {
     "occupancy_duration": EntityCategory.DIAGNOSTIC,
     # ZiQing Presence Sensor Lite
     "no_one_determine_time": EntityCategory.CONFIG,
-    "idle_time": EntityCategory.CONFIG,
     "detect_range": EntityCategory.CONFIG,
     "pir": EntityCategory.CONFIG,
     # Unknown Mesh Smart Plug V3
