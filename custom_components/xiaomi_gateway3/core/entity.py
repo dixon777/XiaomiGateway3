@@ -105,6 +105,15 @@ ENTITY_CATEGORIES = {
     "distance_53_60": EntityCategory.CONFIG,
     "approach_distance": EntityCategory.CONFIG,
     "occupancy_duration": EntityCategory.DIAGNOSTIC,
+    # ZiQing Presence Sensor Lite
+    "no_one_determine_time": EntityCategory.CONFIG,
+    "idle_time": EntityCategory.CONFIG,
+    "detect_range": EntityCategory.CONFIG,
+    "pir": EntityCategory.CONFIG,
+    # Unknown Mesh Smart Plug V3
+    "inching_mode": EntityCategory.CONFIG,
+    "inching_state": EntityCategory.CONFIG,
+    "inching_time": EntityCategory.CONFIG,
 }
 
 STATE_TIMEOUT = timedelta(minutes=10)
